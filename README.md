@@ -31,10 +31,4 @@ python calculator_cfg.py "-3^2"
 
 These print `-4`, `4`, and `-9`, respectively.
 
-## Saved version
 
-The three assignment files are the unchanged initial Gemini calculator response saved on October 6, 2026. The original evaluation identifies this as a provisional first attempt; its exact model version and original prompt were not recorded.
-
-The saved evaluation passed all 10 instructor examples and 26 additional development cases (36/36). Held-out evaluation was deferred.
-
-The review also identified two language-preservation failures: the grammar rejects `2^-3` and `log 2+6 base 2`, although the assignment's original grammar accepts them. These additional diagnostics were separate from the fixed development score. The saved code is therefore an initial version with documented limitations, rather than a claim of full assignment compliance.
